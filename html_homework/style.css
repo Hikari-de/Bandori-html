@@ -1,0 +1,141 @@
+
+body{
+    background-image: linear-gradient(rgba(135, 206, 235, 0.7), rgba(77, 155, 77, 0.7)),
+                      url("shotingstar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    border-style:solid;
+    border-radius: 15px;
+    border-color:seagreen;
+    background-color:rgb(170, 221, 241);
+    color:blueviolet;
+    text-align:center;
+    font-size: 50px;
+    padding: 10px;
+}
+.icon{
+    width:39px;
+    height:39px;
+}
+h2{
+    font-size: 20px;
+}
+#title1{
+    color:rgb(0, 0, 0);
+}
+.menu{
+    font-size: 25px
+}
+.personal-information{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    flex: 1;
+}
+.school{
+    flex: 1;
+    text-align: right;
+}
+
+.school img{
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+}
+.hobby-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.myhobbies{
+    font-size:20px;
+    flex: 1;
+}
+
+.video{
+    flex: 1;
+    text-align: right;
+}
+
+.video iframe{
+    width: 100%;
+    max-width: 660px;
+    aspect-ratio: 16/9;
+    border: none;
+    border-radius: 30px;
+}
+.myskill{
+    font-size: 20px;
+}
+.fc{
+    text-align:center
+}
+.as{
+   font-size: 20px; 
+}
+hr{
+    border: 1px solid rgb(141, 204, 230);
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+
+th, td{
+    border: 2px solid rgb(116, 57, 134);
+
+    padding: 15px;
+}
+form{
+    width: 500px;
+    margin: auto;
+
+    background: rgba(177, 50, 135, 0.35);
+
+    border: 2px solid #FFD54F;
+    border-radius: 15px;
+
+    padding: 20px;
+}
+.fc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.fc{
+    width: 500px;
+    padding: 20px;
+    background: rgba(0,0,0,0.35);
+    border: 2px solid #FFD54F;
+    border-radius: 15px;
+}
+
+.left-image img{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    position: relative;
+    left: 80px;
+}
+.right-image img{
+    width: 260px;
+    height: auto;
+    border-radius: 15px;
+    position: relative;
+    right: 70px;
+}
+img{
+    mix-blend-mode: screen;
+}
